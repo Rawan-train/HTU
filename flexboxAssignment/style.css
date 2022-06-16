@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+@import url("https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css");
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Dosis;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    font-size: large;
+    
+
+
+}
+
+
+nav ul li {
+    display: inline-flex;
+    padding: 0 1.4em 0 0;
+    margin-top: 3%;
+
+
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.kabseh {
+
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 1.5em 0 1.4em 5%;
+    padding: 0.4em 1em 0.4em 1em;
+    margin-right: 2%;
+
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: 79%;
+    width: 100%;
+    background-color: #9e89b8;
+    background-image: url(city.jpg);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    background-blend-mode:luminosity;
+    flex-grow: 1;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 15% 28% 20% 10%;
+    margin-right: 30%;
+    
+}
+
+/* .sorah img{
+    
+    object-fit:cover;
+    opacity: 0.5;
+} */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+    flex:1;
+    
+}
+footer i{
+    margin-top: 0.7em;
+}
+footer ul li{
+    display:inline-flex;
+    padding: 0 0.5em 0 0;
+    flex: 1;
+}
+a:hover {
+    cursor: pointer;
+}
